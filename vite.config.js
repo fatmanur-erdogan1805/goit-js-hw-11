@@ -10,6 +10,7 @@ export default defineConfig(({ command }) => {
       [command === 'serve' ? 'global' : '_global']: {},
     },
     root: 'src',
+    base: '/goit-js-hw-11/',  // <- Buraya GitHub repo adını yaz!
     build: {
       sourcemap: true,
       rollupOptions: {
